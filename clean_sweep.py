@@ -30,4 +30,6 @@ def run_tests():
 
 def clean(nums, n):
 
+    if n in nums
+
 

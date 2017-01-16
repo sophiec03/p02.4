@@ -29,4 +29,10 @@ def run_tests():
 
 def is_repeated(nums):
 
+    if nums[0] in nums[1:]:
+        print("Repeated")
+
+    elif nums[0] not in nums[1:]:
+        print("Unique")
+
 

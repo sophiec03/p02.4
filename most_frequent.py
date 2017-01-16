@@ -31,4 +31,12 @@ def run_tests():
 
 def mode(nums, a, b):
 
+    if a in nums:
+        print(a)
+
+    elif in nums:
+        print(b)
+
+    
+
 

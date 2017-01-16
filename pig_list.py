@@ -26,4 +26,10 @@ def run_tests():
 
 def rotate(nums):
 
+    if nums == []:
+        print(nums)
+
+    elif nums[-1]
+        
+
 
