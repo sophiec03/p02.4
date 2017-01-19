@@ -31,11 +31,26 @@ def run_tests():
 
 def mode(nums, a, b):
 
-    if a in nums:
+    if a not in nums and b not in nums:
+        print("Neither")
+
+    elif nums.count(a) > nums.count(b):
         print(a)
 
-    elif in nums:
+    elif nums.count(a) < nums.count(b):
         print(b)
+
+    elif nums.count(a) == nums.count(b):
+        print("Tie")
+
+
+
+
+    
+
+    
+
+
 
     
 
